@@ -1,5 +1,5 @@
 class Owner
-  # code goes here	
+
   attr_reader :name, :species
 
   @@owner = []
@@ -71,3 +71,5 @@ class Owner
 
     "I have #{dogs.length} dog(s), and #{cats.length} cat(s)."
   end
+  
+end
